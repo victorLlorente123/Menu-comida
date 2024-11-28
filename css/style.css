@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*quitarlo de anotacion para ver los margenes de los elementos*/
+    /*border: rgba(0, 0, 0, 1) 1px solid;*/
+}
+#colocarElementos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+.Descuento
+{
+    display: flex;
+}
+.checkbox1
+{
+    margin-top: 5%;
+    width: 30%;
+}
+.selectClase
+{
+    width: 20%;
+}
+@media screen and (max-width: 500px) 
+{
+
+}
